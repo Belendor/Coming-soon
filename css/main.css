@@ -1,0 +1,28 @@
+.container{
+    display: inline-block;
+    width: 100%;
+}
+.bg-blue {
+    background-color: aqua;
+}
+
+
+.hero{
+    display: inline-block;
+    width: 600px;
+    margin: 60px calc( (100% - 600px) / 2) 30px;
+    text-align: center;
+}
+
+.container, .big-img{
+    max-height: 100vh;
+    background-image: url(../pics/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    background-attachment: fixed;
+}
+
+.hero > img{
+    display: inline-block;
+}
