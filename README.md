@@ -6,7 +6,7 @@
 
 This project is for educational porpuses only. Pull request are welcome, but priority for my real-life students! Thank you for your cooperation!
 
-Site published at https://belendor.github.io/coming-soon/index.html
+Site published at https://belendor.github.io/Coming-soon/
 
 ### Authors
 [Belendor](https://github.com/Belendor)
