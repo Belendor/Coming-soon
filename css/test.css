@@ -1,3 +1,6 @@
+
+/* Structure */
+
 .container{
     display: inline-block;
     width: 100%;
@@ -5,7 +8,6 @@
 }
     .container.hero{
         background-color: blue;
-        padding-top: 80px;
         padding-bottom: 20px;
         background-image: url(../pics/background.png);
         background-repeat: no-repeat;
@@ -14,21 +16,19 @@
 
     }
     .container.content{
-        padding-top: 80px;
-        padding-bottom: 20px;
+background-color: white;
     }
 
     .container.footer{
         background-color: blue;
-        padding-top: 80px;
-        padding-bottom: 20px;
+        padding-top: 10px;
     }
 
     .container > .hero-row{
         display: inline-block;
         width: 600px;
         margin-left: calc(50% - 300px);
-        background-color: aqua;
+        text-align: center;
     }
     .container > .row{
         display: inline-block;
@@ -85,4 +85,42 @@
             width: 100%;
         }
         
+}
+
+/* Hero */
+.hero-row > .logo {
+    display: inline-block;
+    margin-bottom: 40px;
+    height: 40px;
+}
+.hero-row > h1 {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: black;
+    font-size: 64px;
+    line-height: 64px;
+}
+.hero-row > p {
+    display: inline-block;
+    width: 100%;
+    font-size: 20px;
+    line-height: 25px;
+    color: #ddd;
+}
+.hero-row > .clock {
+    display: inline-block;
+    width: 100%;
+    margin: 40px 0;
+}
+.hero-row > .form {
+    display: inline-block;
+    width: 90%;
+    margin: 0 5% 10px;
+
+}
+.hero-row > .mouse {
+    display: inline-block;
+    width: 100%;
 }
