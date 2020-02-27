@@ -1,0 +1,28 @@
+.mouse{
+    display: inline-block;
+    width: 40px;
+    height: 60px;
+    border: solid white 2px;
+    border-radius: 20px;
+}
+    .mouse > .weel {
+        display: inline-block;
+        width: 5px; 
+        height: 10px;
+        margin-top: 30px;
+        background-color: white;
+        border-radius: 5px;
+        animation: mouse 1.7s ease 0s infinite;
+        margin: 5px 16px;
+    }
+
+@keyframes mouse {
+    0% {
+        margin-top: 5px;
+        opacity: 1;
+    }
+    100%{
+        margin-top: 30px;
+        opacity: 0;
+    }
+}
