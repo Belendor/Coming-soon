@@ -32,18 +32,44 @@
         display: inline-block;
         width:  100%;
         height: 4px;
-        background-color: grey;
+        background-color: #EDEDED;
     }
         .progress-bar > .bar > .value{
             display: inline-block;
             width: 90%;
             height: 100%;
-            background-color: blue;
         }
+            .progress-bar > .bar > .value > .loading {
+                display: inline-block;
+                width: 100%;
+                height: 100%;
+                background-color: #00A3F2;
+
+                animation-name: loading;
+                animation-duration: 10s;
+                animation-iteration-count: 7;
+                animation-play-state: running;
+            }   
+                .progress-bar:hover > .bar > .value > .loading{
+                    animation-play-state: paused;
+                }
+
         /* .progress-bar > .bar > .value-86{
             width: 86%;
  
         }
         .progress-bar > .bar > .value-50{
             width: 50%;
-        } */    
+        } */  
+        
+@keyframes loading{
+    0%{
+        width: 0;
+    }
+    50%{
+        width: 20%;
+    }
+    100%{
+        width: 100%;
+    }
+}       
