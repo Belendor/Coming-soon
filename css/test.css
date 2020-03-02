@@ -145,3 +145,6 @@ background-color: white;
     text-decoration: none;
     display: inline;
 }
+.content form > .btn{
+    float: right;
+}
