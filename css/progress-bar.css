@@ -46,8 +46,8 @@
                 background-color: #00A3F2;
 
                 animation-name: loading;
-                animation-duration: 10s;
-                animation-iteration-count: 7;
+                animation-duration: 2s;
+                animation-iteration-count: 1;
                 animation-play-state: running;
             }   
                 .progress-bar:hover > .bar > .value > .loading{
